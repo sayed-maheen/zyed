@@ -17,5 +17,12 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 Route::get('/', function () {
-    return view('pages.test');
+    return view('pages.x1home');
 });
+Route::get('/home', function () {
+    return view('pages.x1home');
+});
+// Route::get('/', function () {
+//     return view('pages.test');
+// });
+Route::get('{slug}', [SiteController::class, 'pageindex']);
