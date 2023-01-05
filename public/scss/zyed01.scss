@@ -1,0 +1,35 @@
+#body-id {
+    color: #ccc;
+    background-color: #5a5c5e;
+}
+#nav-brand1 {
+    letter-spacing: 2px;
+    font-size: 1.4rem;
+    color: #ccc;
+    padding-top: 5px;
+    padding-left: 1rem;
+    // color: rgb(236, 238, 238);
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+#nav-brand2 {
+    font-size: 1.3rem;
+    color: #ccc;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    // color: rgb(213, 30, 85);
+}
+// #navbar-toggler {
+//     border: 1px solid #ccc;
+//     padding: 0.3rem;
+//     border-radius: 5px;
+//     &:hover
+// }
+#navbar-toggler {
+    padding-right: 1rem;
+    border: none;
+}
+#navbar-toggler-div {
+    height: 3px;
+    width: 2rem;
+    background-color: #ccc;
+    margin: 5px 0;
+}
