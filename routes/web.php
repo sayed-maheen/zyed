@@ -13,16 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
 Route::get('/', function () {
-    return view('pages.x1home');
+    return view('welcome');
 });
-Route::get('/home', function () {
-    return view('pages.x1home');
-});
-// Route::get('/', function () {
-//     return view('pages.test');
-// });
-Route::get('{slug}', [SiteController::class, 'pageindex']);
